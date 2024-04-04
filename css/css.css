@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0px;
+}
+body {
+    background: #dddddd;
+}
+.ganagol {
+    max-width: 700px;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 0px 3px 6px #afafaf;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.action.active {
+    background: #186f0e;
+    color: white;
+}
+.title {
+    text-align: center;
+    background: #186f0e;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    color: white;
+}
+
+.datapartido {
+    border-right: solid 1px #bfbfbf;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 220px;
+}
+.datapartido p {
+    color: #9d9d9d;
+}
+.datapartido h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.action {
+    border: solid 1px #bfbfbf;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #a59d9d;
+    background: white;
+    cursor: pointer;
+}
+.actions {
+    display: flex;
+}
+.btn {
+    width: 100%;
+    background: #edba42;
+    border: none;
+    font-size: 22px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 10px;
+}
+.partido {
+    margin-bottom: 20px;
+    background: #f1f1f1;
+    align-items: center;
+    padding: 5px 10px;
+    display: flex;
+}
